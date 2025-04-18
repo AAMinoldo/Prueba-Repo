@@ -1,0 +1,32 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos de Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos temporales de sistema
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Archivos de tests / coverage
+htmlcov/
+.tox/
+.coverage
+.cache/
+.pytest_cache/
+
+# Entornos o herramientas
+.env
+.env.*
+
+# Archivos de Jupyter (si usás)
+.ipynb_checkpoints/
